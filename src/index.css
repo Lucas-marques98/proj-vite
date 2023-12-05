@@ -6,7 +6,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --primary: #1040c5;
+  --primary: rgb(16, 155, 197);
   --secondary: #0f5660;
   --terceary: #533483;
   --red: #E94560;

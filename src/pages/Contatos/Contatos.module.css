@@ -1,0 +1,31 @@
+.contatos{
+  width: 100%;
+  min-height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+  font-weight: bold;
+}
+
+.contatos h3{
+  color: var(--red);
+}
+
+.icones{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icone{
+  font-size: 3rem;
+  color: var(--primary);
+}

@@ -1,14 +1,8 @@
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
-import Container from '../../components/Container'
 import styles from './Home.module.css'
 import { Link } from 'react-router-dom'
 
 function Home() {
     return (
-      <>
-      <Header/>
-      <Container>
       <section className={styles.home}>
      <div className={styles.apresentacao}>
        <p>
@@ -24,9 +18,6 @@ function Home() {
        <img className={styles.img_home} src="/dev.svg" alt="Imagem de Home" />
      </figure>
    </section>
-      </Container>
-      <Footer/>
-      </>
     )
 }
 

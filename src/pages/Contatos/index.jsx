@@ -1,6 +1,3 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Container from '../../components/Container'
 import styles from './Contatos.module.css'
 import { GoMail } from "react-icons/go";
 import { FaInstagram } from "react-icons/fa";
@@ -8,9 +5,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 function Contatos() {
   return (
-    <>
-    <Header />
-    <Container>
     <section className={styles.contatos}>
     <h3>Entre em contato</h3>
     <p>Para que possamos conversar mais sobre.</p>
@@ -29,9 +23,6 @@ function Contatos() {
      <a href="https://www.linkedin.com/in/lucas-marques-8b040b169/" target="_blank" rel="noopener noreferrer"><FaLinkedin className={styles.icone}/></a>
     </div>
     </section>
-    </Container>
-    <Footer/>
-    </>
   )
 }
 
